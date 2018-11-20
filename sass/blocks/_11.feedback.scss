@@ -1,0 +1,42 @@
+.feedback {
+	padding: 40px 0 5px;
+
+	@media (min-width: $sm) {
+		padding: 70px 0 5px;
+	}
+
+	h2 {
+		margin-bottom: 65px;
+	}
+
+	.item {
+		margin-bottom: 50px;
+	}
+
+	.cloud {
+		position: relative;
+		padding: 64px 25px 30px 104px;
+		margin: 0 auto;
+		background: url(../img/clouds/speechcloud-yellow-feedback.png);
+		background-size: cover;
+
+		@media (min-width: $sm) {
+			padding: 64px 55px 30px 104px;
+			margin-left: auto;
+			width: 506px;
+			height: 388px;
+		}
+
+		p {
+			line-height: 1.2;
+		}
+
+		.speechcloud {
+			position: absolute;
+			top: -40px;
+			left: -65px;
+			width: 169px;
+			height: 165px;
+		}
+	}
+}

@@ -1,0 +1,86 @@
+.top-line {
+  padding: 20px 0;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: $xl) {
+      flex-direction: row;
+    }
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+    @media (min-width: $xl) {
+      margin-bottom: 0;
+    }
+
+    img {
+      margin-right: 14px;
+    }
+
+    .descript {
+      font-size: 1.125rem;
+    }
+
+    .slogan {
+      font-family: 'Imperfect';
+      font-size: 1.75rem;
+      color: red;
+    }
+  }
+
+  .callback {
+    .phone {
+      padding-left: 24px;
+      margin-bottom: 5px;
+      font-size: 1.625rem;
+
+      &:hover {
+        color: inherit;
+      }
+    }
+
+    .delivery {
+      font-size: 1.125rem;
+      text-align: right;
+      color: $blue;
+    }
+  }
+
+  .chat {
+    display: none;
+
+    @media (min-width: $md) {
+      display: flex;
+      align-items: center;
+      margin-top: 25px;
+    }
+
+    @media (min-width: $xl) {
+      margin-top: 0;
+    }
+
+    p {
+      padding-right: 10px;
+      text-align: right;
+    }
+
+    .btn {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 1.125rem;
+    }
+  }
+
+  .age-img {
+    max-height: 82px;
+    width: auto;
+  }
+}

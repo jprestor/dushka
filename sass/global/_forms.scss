@@ -1,0 +1,46 @@
+input,
+select {
+	display: block;
+	margin-bottom: 28px;
+	width: 100%;
+	font-size: 1.125rem;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid $blue;
+}
+
+.politics {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 14px;
+	text-align: center;
+	color: $blue;
+}
+
+.form-submit {
+	margin: 0 auto;
+	width: 308px;
+	
+	@media (max-width: 370px) {
+		padding: 8;
+		width: 250px;
+	}
+}
+
+/*----Цвет плейсхолдера---*/
+
+input::-webkit-input-placeholder {
+	color: $blk;
+}
+
+input::-moz-placeholder {
+	color: $blk;
+}
+
+input:-moz-placeholder {
+	color: $blk;
+}
+
+input:-ms-input-placeholder {
+	color: $blk;
+}

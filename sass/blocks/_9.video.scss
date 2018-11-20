@@ -1,0 +1,87 @@
+.video {
+	padding: 40px 0;
+
+	@media (min-width: $sm) {
+		padding: 64px 0 70px;
+		background-position: top center;
+	}
+
+	h2 {
+		margin-bottom: 12px;
+	}
+
+	.frame {
+		display: flex;
+		justify-content: center;
+		padding-top: 35px;
+		margin-bottom: 48px;
+
+		@media (min-width: $xl) {
+			padding-top: 76px;
+			min-height: 578px;
+			background: url(../img/bg/bg-video.jpg) top center no-repeat;
+		}
+
+		a {
+			display: block;
+		}
+	}
+
+	.wrap {
+		position: relative;
+	}
+
+	.speechcloud {
+		display: none;
+		position: absolute;
+		top: 23px;
+		left: -254px;
+		width: 169px;
+		height: 165px;
+		background: url(../img/clouds/speechcloud-blue-round.png);
+		background-size: cover;
+
+		@media (min-width: $xl) {
+			display: block;
+		}
+
+		p {
+			padding-top: 35px;
+			font-size: 1.125rem;
+			text-align: center;
+			color: #fff;
+		}
+	}
+
+	.manuals {
+		margin-bottom: 25px;
+		text-align: center;
+
+		a {
+			display: block;
+			margin-bottom: 30px;
+			font-size: 1.125rem;
+			color: $blue;
+			text-decoration: underline;
+		}
+
+		@media (min-width: $xl) {
+			a {
+				display: inline-block;
+			}
+			
+			a:first-child {
+				padding-right: 85px;
+			}
+
+			a:last-child {
+				padding-left: 85px;
+			}
+		}
+	}
+	
+	.btn {
+		margin: 0 auto;
+		width: 292px;
+	}
+}

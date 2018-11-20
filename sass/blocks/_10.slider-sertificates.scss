@@ -1,0 +1,38 @@
+.slider-sertificates {
+	padding: 40px 0;
+	background: url(../img/bg/bg-slider-sertificates.jpg) top center;
+
+	@media (min-width: $sm) {
+		padding: 65px 0;
+	}
+
+	h2 {
+		margin-bottom: 40px;
+	}
+
+	p {
+		font-size: 1.125rem;
+	}
+
+	p:first-of-type {
+		margin-bottom: 18px;
+	}
+
+	p:last-of-type {
+		margin-bottom: 42px;
+	}
+
+	.slider-sertificates-inner {
+		padding: 0 52px;
+
+		.slick-slide {
+			padding: 14px 0;
+		}
+
+		img {
+			margin: 0 auto;
+			width: 300px;
+			box-shadow: 0px 9px 5.76px 0.24px rgba(0, 0, 0, 0.28);
+		}
+	}
+}

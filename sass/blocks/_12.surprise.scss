@@ -1,0 +1,33 @@
+.surprise {
+	padding: 10px 0 40px;
+
+	@media (min-width: $xl) {
+		padding: 10px 0 55px;
+		
+		.container {
+			background: url(../img/images/img-surprise-gift.png) 100% 100% no-repeat;
+			padding-bottom: 15px;
+		}
+	}
+
+	h2 {
+		margin-bottom: 22px;
+	}
+
+	p {
+		font-size: 1.125rem;
+	}
+
+	p:first-of-type {
+		margin-bottom: 20px;
+	}
+
+	p:last-of-type {
+		margin-bottom: 35px;
+	}
+
+	.btn {
+		margin: 0 auto;
+		width: 308px;
+	}
+}

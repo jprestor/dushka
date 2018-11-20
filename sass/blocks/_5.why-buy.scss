@@ -1,0 +1,43 @@
+.why-buy {
+	padding: 52px 0 15px;
+
+	.item {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+
+	.wrap {
+		position: relative;
+		padding-left: 85px;
+	}
+
+	.speechcloud {
+		position: absolute;
+		top: 16px;
+		left: 15px;
+		padding-top: 17px;
+		width: 174px;
+		height: 105px;
+		font-size: 13px;
+		text-align: center;
+		color: #fff;
+		background: url(../img/clouds/speechcloud-blue-square.png);
+		background-size: cover;
+
+		@media (min-width: $sm) {
+			padding-top: 22px;
+			width: 214px;
+			height: 129px;
+			font-size: 1rem;
+		}
+
+		&.last {
+			padding-top: 12px;
+		}
+
+		b {
+			font-size: 1.125rem;
+		}
+	}
+}

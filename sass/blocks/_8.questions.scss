@@ -1,0 +1,42 @@
+.questions {
+	padding: 28px 0;
+	background: url(../img/bg/bg-questions.jpg);
+	background-position: top right;
+
+	@media (min-width: $sm) {
+		padding: 28px 0 196px;
+		background-position: top center;
+	}
+
+	h2 {
+		margin-bottom: 30px;
+
+		@media (min-width: $sm) {
+			margin-bottom: 92px;
+		}
+	}
+
+	.cloud {
+		padding: 30px 25px;
+		font-size: 1.125rem;
+		background-color: $yellow;
+		border-radius: 30px;
+
+		@media (min-width: $sm) {
+			padding: 30px 0 0 35px;
+			margin-left: 22px;
+			width: 398px;
+			height: 203px;
+			background: url(../img/clouds/speechcloud-yellow-questions.png);
+			background-size: cover;
+		}
+	}
+
+	.descript {
+		margin-bottom: 20px;
+	}
+
+	.phone {
+		font-size: 1.5rem;
+	}
+}

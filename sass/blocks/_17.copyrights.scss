@@ -1,0 +1,21 @@
+.copyrights {
+	padding: 10px 0;
+	color: #fff;
+	background-color: $blue;
+
+	a {
+		text-decoration: underline
+	}
+
+	@media (min-width: $xl) {
+		.copyrights-items {
+			display: flex;
+		}
+		.copyrights-item {
+			width: 50%;
+		}
+		.copyrights-item.creator {
+			text-align: right;
+		}
+	}
+}

@@ -1,0 +1,141 @@
+.sprite {
+	position: relative;
+	display: block;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		background: url(../img/spritesheet.png) no-repeat;
+	}
+}
+
+.sprite-btn {
+	display: block;
+	background: url(../img/spritesheet.png) no-repeat;
+}
+
+
+/*Arrows*/
+
+.slick-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: url(../img/spritesheet.png) no-repeat;
+	border: none;
+	font-size: 0;
+}
+
+.slick-next {
+	right: 0;
+	width: 50px;
+	height: 50px;
+	background-position: -2px -2px;
+}
+
+.slick-prev {
+	left: 0;
+	width: 50px;
+	height: 50px;
+	background-position: -56px -2px;
+}
+
+
+.sprite-feature-care::before {
+	width: 63px;
+	height: 61px;
+	background-position: -110px -2px;
+}
+
+.sprite-feature-long::before {
+	width: 63px;
+	height: 61px;
+	background-position: -177px -2px;
+}
+
+.sprite-feature-quick::before {
+	width: 63px;
+	height: 61px;
+	background-position: -244px -2px;
+}
+
+.sprite-feature-safe::before {
+	width: 63px;
+	height: 61px;
+	background-position: -2px -67px;
+}
+
+.sprite-marker::before {
+	width: 16px;
+	height: 20px;
+	background-position: -311px -2px;
+}
+
+.sprite-phone::before {
+	width: 20px;
+	height: 20px;
+	background-position: -311px -26px;
+}
+
+.sprite-safe-ico::before {
+	width: 90px;
+	height: 90px;
+	background-position: -69px -67px;
+}
+
+.sprite-stamp-warranty::before {
+	width: 190px;
+	height: 165px;
+	background-position: -2px -160px;
+}
+
+.sprite-step-1-request::before {
+	width: 88px;
+	height: 73px;
+	background-position: -162px -67px;
+}
+
+.sprite-step-2-consult::before {
+	width: 81px;
+	height: 81px;
+	background-position: -196px -144px;
+}
+
+.sprite-step-3-formalize::before {
+	width: 99px;
+	height: 75px;
+	background-position: -196px -229px;
+}
+
+.sprite-step-4-recieve::before {
+	width: 82px;
+	height: 82px;
+	background-position: -334px -2px;
+}
+
+.sprite-step-5-enjoy::before {
+	width: 80px;
+	height: 89px;
+	background-position: -281px -88px;
+}
+
+.sprite-step-arrow-down::after {
+	content: '';
+	position: absolute;
+	background: url(../img/spritesheet.png) no-repeat;
+	width: 72px;
+	height: 38px;
+	background-position: -281px -181px;
+}
+
+.sprite-step-arrow-up::after {
+	content: '';
+	position: absolute;
+	background: url(../img/spritesheet.png) no-repeat;
+	width: 72px;
+	height: 38px;
+	background-position: -299px -223px;
+}

@@ -1,0 +1,38 @@
+.simple-and-stylish {
+	padding-top: 45px;
+	background: url(../img/bg/bg-simple-and-stylish.jpg) top center;
+
+	h3 {
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	.caption {
+		margin-bottom: 40px;
+	}
+
+	.columns {
+		text-align: center;
+		
+		.item {
+			padding-bottom: 30px;
+		}
+		
+		.caption {
+			margin-bottom: -10px;
+		}
+		
+		img {
+			margin: 0 auto;
+			margin-bottom: -10px;
+		}
+		
+		b {
+			display: block;
+		}
+		
+		p {
+			margin-bottom: 15px;
+		}
+	}
+}

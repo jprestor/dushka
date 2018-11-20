@@ -1,0 +1,104 @@
+.intro {
+  padding-top: 45px;
+  background: url(../img/bg/bg-intro.jpg) no-repeat top center;
+  background-size: cover;
+
+  @media (min-width: $lg) {
+    background-size: auto;
+  }
+
+  .cloud {
+    padding: 30px 22px;
+    margin-bottom: 12px;
+    background-color: rgba(246, 245, 188, 0.8);
+    border-radius: 30px;
+
+    &::before {
+      //sprite-safe-ico
+      display: none;
+    }
+
+    @media (min-width: $md) {
+      margin-bottom: 12px;
+      width: 676px;
+      height: 425px;
+      background: url(../img/clouds/speechcloud-yellow-intro.png);
+      background-size: cover;
+
+      &::before {
+        //sprite-safe-ico
+        display: block;
+        top: auto;
+        left: auto;
+        transform: none;
+        bottom: 32px;
+        right: 28px;
+      }
+
+      img {
+        display: none;
+      }
+    }
+
+    h2 {
+      margin-bottom: 18px;
+      text-align: left;
+    }
+
+    p {
+      padding-left: 20px;
+      margin-bottom: 10px;
+      font-size: 1.125rem;
+
+      &::before {
+        //sprite-marker
+        top: 0px;
+        transform: none;
+      }
+    }
+
+    ul {
+      padding-left: 21px;
+      margin: 18px 0 18px;
+    }
+  }
+
+  /*----###cloud-----*/
+  .heaters {
+    background-color: rgba(253, 70, 104, 0.6);
+
+    h2 {
+      @media (min-width: $xl) {
+        text-align: right;
+      }
+    }
+
+    .container {
+      position: relative;
+      padding: 12px 0 15px;
+    }
+
+    .free-delivery {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    img {
+      display: none;
+      position: absolute;
+      top: -24px;
+      left: -200px;
+
+      @media (min-width: $xl) {
+        display: block;
+      }
+    }
+
+    .btn {
+      width: 292px;
+      margin: 0 auto;
+    }
+  }
+}
