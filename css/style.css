@@ -106,6 +106,8 @@ img {
   font-size: 2.2rem; }
   .new-price strike {
     font-size: 1.5rem; }
+  .new-price span {
+    color: red; }
 
 .sprite {
   position: relative;
@@ -451,6 +453,8 @@ input:-ms-input-placeholder {
     .intro .heaters .container {
       position: relative;
       padding: 12px 0 15px; }
+    .intro .heaters .new-price span {
+      color: yellow; }
     .intro .heaters .free-delivery {
       margin-bottom: 10px;
       text-align: center;
@@ -459,7 +463,7 @@ input:-ms-input-placeholder {
     .intro .heaters img {
       display: none;
       position: absolute;
-      top: -24px;
+      bottom: 0;
       left: -200px; }
     .intro .heaters .btn {
       width: 292px;
@@ -524,6 +528,9 @@ input:-ms-input-placeholder {
   padding: 52px 0 22px; }
   .catalog .caption:last-of-type {
     margin-bottom: 0; }
+    .catalog .caption:last-of-type .price {
+      font-size: 1.5rem;
+      color: red; }
   .catalog .columns .characteristics-heading {
     display: block;
     text-align: center;
