@@ -375,9 +375,6 @@ input:-ms-input-placeholder {
       padding-left: 20px;
       padding-right: 20px;
       font-size: 1.125rem; }
-  .top-line .age-img {
-    max-height: 82px;
-    width: auto; }
 
 .main-nav {
   background-color: #88cfd2; }
@@ -445,8 +442,10 @@ input:-ms-input-placeholder {
       margin: 18px 0 18px; }
     .intro .cloud .age-img {
       position: absolute;
-      right: -4px;
-      bottom: -4px; }
+      right: 4px;
+      bottom: 4px;
+      width: 60px;
+      height: auto; }
   .intro .heaters {
     background-color: rgba(253, 70, 104, 0.6); }
     .intro .heaters .container {
@@ -856,8 +855,9 @@ input:-ms-input-placeholder {
     body {
       font-size: 16px; }
         .intro .cloud .age-img {
-          right: 10px;
-          bottom: 100px; }
+          right: 4px;
+          bottom: 68px;
+          width: 75px; }
       .why-buy .speechcloud {
         padding-top: 22px;
         width: 214px;
@@ -914,6 +914,10 @@ input:-ms-input-placeholder {
           right: 28px; }
         .intro .cloud .heaters-img {
           display: none; }
+        .intro .cloud .age-img {
+          right: 30px;
+          bottom: 130px;
+          width: 85px; }
       .callback-footer form {
         padding: 30px 48px;
         margin: 0 auto;
@@ -928,8 +932,6 @@ input:-ms-input-placeholder {
           align-items: center;
           margin-top: 14px; } }
   @media (min-width: 992px) {
-    .intro {
-      background-size: auto; }
       .map-sect .map-contacts {
         position: absolute;
         top: 108px;
@@ -953,8 +955,6 @@ input:-ms-input-placeholder {
         margin-top: 0; }
       .main-nav .navbar {
         padding: 0; }
-      .intro .heaters h2 {
-        text-align: right; }
         .intro .heaters img {
           display: block; }
       .catalog .product-cards .more {

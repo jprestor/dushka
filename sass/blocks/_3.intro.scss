@@ -3,9 +3,9 @@
   background: url(../img/bg/bg-intro.jpg) no-repeat top center;
   background-size: cover;
 
-  @media (min-width: $lg) {
-    background-size: auto;
-  }
+//  @media (min-width: $lg) {
+//    background-size: auto;
+//  }
 
   .cloud {
     position: relative;
@@ -65,12 +65,21 @@
 
     .age-img {
       position: absolute;
-      right: -4px;
-      bottom: -4px;
+      right: 4px;
+      bottom: 4px;
+      width: 60px;
+      height: auto;
 
       @media (min-width: $sm) {
-        right: 10px;
-        bottom: 100px;
+        right: 4px;
+        bottom: 68px;
+        width: 75px;
+      }
+
+      @media (min-width: $md) {
+        right: 30px;
+        bottom: 130px;
+        width: 85px;
       }
     }
   }
@@ -78,12 +87,6 @@
   /*----###cloud-----*/
   .heaters {
     background-color: rgba(253, 70, 104, 0.6);
-
-    h2 {
-      @media (min-width: $xl) {
-        text-align: right;
-      }
-    }
 
     .container {
       position: relative;
